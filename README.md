@@ -10,10 +10,14 @@ This has been made for two main reasons:
 - Security
 - Lightness
 
+
+![Alt text](https://github.com/MaurizioCarrara/GARC-Public-/blob/main/GIFs/downloadDB.gif)
+
+
+
 ## Structure
 In the actual version (2.1), there are two selector (data range and airport) that filter the downloaded data and just one page with all the chart and tables (5 A4 pages in printing)
 GIFs/downloadDB.gif
-![Alt text](https://github.com/MaurizioCarrara/GARC-Public-/blob/main/GIFs/downloadDB.gif)
 
 ## Known issues
 - Time of loading depends on the hardware
