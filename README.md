@@ -21,6 +21,9 @@ In the actual version (2.1), there are two selector (data range and airport) tha
 
 ![Alt text](https://github.com/MaurizioCarrara/GARC-Public/blob/main/GIFs/Selectors.gif)
 
+
+
+![Alt text](https://github.com/MaurizioCarrara/GARC-Public/blob/main/GIFs/Selectors.gif)
 ## Known issues
 - Time of loading depends on the hardware
 - Functions and classes will be improved to higher efficency
