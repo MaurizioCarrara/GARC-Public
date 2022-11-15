@@ -16,9 +16,12 @@ This has been made for two main reasons:
 
 
 ## Structure
-In the actual version (2.1), there are two selector (data range and airport) that filter the downloaded data and just one page with all the chart and tables (5 A4 pages in printing)
-GIFs/downloadDB.gif
+In the actual version (2.1), there are two selector (data range and airport) that filter the downloaded data and just one page with all the chart and tables (5 A4 pages in printing).
+
+
+![Alt text](https://github.com/MaurizioCarrara/GARC-Public/blob/main/GIFs/Structure.gif)
 
 ## Known issues
 - Time of loading depends on the hardware
-- Functions and classes will be improved
+- Functions and classes will be improved to higher efficency
+- Version 3.0 will be multi page 
