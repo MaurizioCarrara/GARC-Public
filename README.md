@@ -19,7 +19,7 @@ This has been made for two main reasons:
 In the actual version (2.1), there are two selector (data range and airport) that filter the downloaded data and just one page with all the chart and tables (5 A4 pages in printing).
 
 
-![Alt text](https://github.com/MaurizioCarrara/GARC-Public/blob/main/GIFs/Structure.gif)
+![Alt text](https://github.com/MaurizioCarrara/GARC-Public/blob/main/GIFs/Selectors.gif)
 
 ## Known issues
 - Time of loading depends on the hardware
