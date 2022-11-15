@@ -1,6 +1,7 @@
 # G.A.R.C.
 
 G.A.R.C. stands for General Aviation Report Creator, it is a Python app (Dash) that allows to download from anywhere the related DB of flights, makes various analysis and render them in a web page that runs in localhost.
+
 This repository is just for this readme file to show the mode of operation.
 
 ## The data
