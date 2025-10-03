@@ -10,8 +10,9 @@ The application connects to an encrypted server, retrieves the flight database, 
 ## 🔒 Data Management & Security  
 - Flight data are stored on a secured, encrypted server.  
 - Each session retrieves the necessary data on demand, which are held only in memory and discarded once the app is closed.  
-- This approach ensures both **data security** and **system efficiency**, avoiding unnecessary local storage.  
+- This approach ensures both **data security** and **system efficiency**, avoiding unnecessary local storage.
 
+  ![Download_data](https://github.com/MaurizioCarrara/GARC-Public/blob/main/GIFs/downloadDB.gif)
 ---
 
 ## 📊 Current Features (v2.1)  
