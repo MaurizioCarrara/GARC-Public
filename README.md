@@ -1,32 +1,46 @@
-# G.A.R.C.
+# G.A.R.C. – General Aviation Report Creator  
 
-G.A.R.C. stands for General Aviation Report Creator, it is a Python app (Dash) that allows to download from anywhere the related DB of flights, makes various analysis and render them in a web page that runs in localhost.
+**G.A.R.C. (General Aviation Report Creator)** is a Python application developed with the Dash framework.  
+Its purpose is to provide an efficient and secure way to analyze General Aviation flight data through an interactive web interface accessible locally.  
 
-**ATTENTION:**
- This repository is just for this readme file to show the mode of operation.
+The application connects to an encrypted server, retrieves the flight database, and generates a set of analytical reports and visualizations directly in the browser.  
 
-## The data
-Data are stored in an encrypted server that it's contacted each time the app is evoked, they are keeped in a local variable that evanish each time the app is closed.
-This has been made for two main reasons:
-- Security
-- Lightness
+---
 
+## 🔒 Data Management & Security  
+- Flight data are stored on a secured, encrypted server.  
+- Each session retrieves the necessary data on demand, which are held only in memory and discarded once the app is closed.  
+- This approach ensures both **data security** and **system efficiency**, avoiding unnecessary local storage.  
 
-![Alt text](https://github.com/MaurizioCarrara/GARC-Public-/blob/main/GIFs/downloadDB.gif)
+---
 
+## 📊 Current Features (v2.1)  
+- **Data filtering** by date range and airport.  
+- **Automatic generation of analytical reports**, combining multiple visualizations and tables (equivalent to 5 A4 pages if exported).  
+- **Web-based interface** running on `localhost`, allowing easy access and navigation without external deployment.  
 
+![Data Selectors](https://github.com/MaurizioCarrara/GARC-Public/blob/main/GIFs/Selectors.gif)  
 
-## Structure
-In the actual version (2.1), there are two selectors (data range and airport) that filter the downloaded data and just one page with all the charts and tables (5 A4 pages in printing).
+---
 
+## 🚀 Roadmap (v3.0)  
+Planned enhancements include:  
+- **Linear regression models** for movements and MTOW (Maximum Take-Off Weight).  
+- **Rate of change analysis** for key metrics.  
+- **Multi-page architecture** for better report organization and scalability.  
 
-![Alt text](https://github.com/MaurizioCarrara/GARC-Public/blob/main/GIFs/Selectors.gif)
+---
 
-## Future features (v 3.0)
-- Linear regression charts for movments and MTOW (maximum take-off weight)
-- Rate of change chart 
-- Multipage
+## ⚙️ Known Limitations  
+- Data loading speed is dependent on hardware performance.  
+- Codebase (functions and classes) is currently being refactored for improved efficiency and maintainability.  
 
-## Known issues
-- Time of loading depends on the hardware
-- Functions and classes will be improved to higher efficency
+---
+
+## 🎯 Project Goal  
+The G.A.R.C. project demonstrates the ability to design and implement a complete **data analysis pipeline**:  
+- Secure data retrieval → Processing → Visualization → Reporting.  
+It highlights practical skills in **Python, Dash, data modeling, and reporting automation**, with direct applicability to aviation data management and beyond.  
+
+---
+
