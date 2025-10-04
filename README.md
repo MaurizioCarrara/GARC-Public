@@ -7,7 +7,7 @@ The application connects to an encrypted server, retrieves the flight database, 
 
 ---
 
-## 🔒 Data Management & Security  
+## Data Management & Security  
 - Flight data are stored on a secured, encrypted server.  
 - Each session retrieves the necessary data on demand, which are held only in memory and discarded once the app is closed.  
 - This approach ensures both **data security** and **system efficiency**, avoiding unnecessary local storage.
@@ -15,7 +15,7 @@ The application connects to an encrypted server, retrieves the flight database, 
   ![Download_data](https://github.com/MaurizioCarrara/GARC-Public/blob/main/GIFs/downloadDB.gif)
 ---
 
-## 📊 Current Features (v2.1)  
+## Current Features (v2.1)  
 - **Data filtering** by date range and airport.  
 - **Automatic generation of analytical reports**, combining multiple visualizations and tables (equivalent to 5 A4 pages if exported).  
 - **Web-based interface** running on `localhost`, allowing easy access and navigation without external deployment.  
@@ -24,7 +24,7 @@ The application connects to an encrypted server, retrieves the flight database, 
 
 ---
 
-## 🚀 Roadmap (v3.0)  
+## Roadmap (v3.0)  
 Planned enhancements include:  
 - **Linear regression models** for movements and MTOW (Maximum Take-Off Weight).  
 - **Rate of change analysis** for key metrics.  
@@ -32,13 +32,13 @@ Planned enhancements include:
 
 ---
 
-## ⚙️ Known Limitations  
+## Known Limitations  
 - Data loading speed is dependent on hardware performance.  
 - Codebase (functions and classes) is currently being refactored for improved efficiency and maintainability.  
 
 ---
 
-## 🎯 Project Goal  
+## Project Goal  
 The G.A.R.C. project demonstrates the ability to design and implement a complete **data analysis pipeline**:  
 - Secure data retrieval → Processing → Visualization → Reporting.  
 It highlights practical skills in **Python, Dash, data modeling, and reporting automation**, with direct applicability to aviation data management and beyond.  
