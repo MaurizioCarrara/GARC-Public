@@ -18,6 +18,16 @@ The application connects to an encrypted server, retrieves the flight database, 
 - Each session retrieves the necessary data on demand, which are held only in memory and discarded once the app is closed.  
 - This approach ensures both **data security** and **system efficiency**, avoiding unnecessary local storage.
 
+  ┌─────────────┐      ┌──────────────┐       ┌─────────────┐
+  │  🔐 Server  │─────▶│  🐍 Python  │─────▶│  🌐 Dash   │ 
+  │  Encrypted  │      │  Processing  │       │  localhost  │
+  └─────────────┘      └──────────────┘       └─────────────┘
+         │                     │                     │
+         ▼                     ▼                     ▼
+     Database            In-Memory              Browser UI
+     (Secure)              (Temp)              (Interactive)
+
+
   ![Download_data](https://github.com/MaurizioCarrara/GARC-Public/blob/main/GIFs/downloadDB.gif)
 ---
 
