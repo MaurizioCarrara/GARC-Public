@@ -1,5 +1,11 @@
 # G.A.R.C. – General Aviation Report Creator  
 
+![Python](https://img.shields.io/badge/Python-3.9+-3776AB?logo=python&logoColor=white)
+![Dash](https://img.shields.io/badge/Dash-Plotly-00D4FF?logo=plotly&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-Data_Analysis-150458?logo=pandas&logoColor=white)
+![Status](https://img.shields.io/badge/Status-v2.1-success)
+![License](https://img.shields.io/badge/License-Private-red)
+
 **G.A.R.C. (General Aviation Report Creator)** is a Python application developed with the Dash framework.  
 Its purpose is to provide an efficient and secure way to analyze General Aviation flight data through an interactive web interface accessible locally.  
 
